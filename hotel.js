@@ -107,30 +107,5 @@ body {
 #add-room:hover, #add-guest:hover, #simulate-day:hover {
     background-color: #3e8e41;
 }
-```
-4. In `index.html`, add the HTML structure for the UI:
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Simulator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 id="hotel-name"></h1>
-    <p>Funds: <span id="funds"></span></p>
-    <p>Reputation: <span id="reputation"></span></p>
-    <h2>Rooms:</h2>
-    <div id="rooms"></div>
-    <h2>Guests:</h2>
-    <div id="guests"></div>
-    <button id="add-room">Add Room</button>
-    <button id="add-guest">Add Guest</button>
-    <button id="simulate-day">Simulate Day</button>
 
-    <script src="hotel.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+
