@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hotel-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#funds {
+    font-size: 18px;
+}
+
+#reputation {
+    font-size: 18px;
+}
+
+#rooms {
+    margin-top: 20px;
+}
+
+#guests {
+    margin-top: 20px;
+}
+
+#add-room, #add-guest, #simulate-day {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+#add-room:hover, #add-guest:hover, #simulate-day:hover {
+    background-color: #3e8e41;
+}
+
